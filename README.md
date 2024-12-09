@@ -1,70 +1,159 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Google Flights Clone - Flight Search Application
 
-## Available Scripts
+This is a responsive React application that replicates key features of **Google Flights**. It allows users to search for flights, filter results, and view departure and return flight options using the **Sky-Scrapper API**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Search for Flights**: 
+  - Enter departure and destination airport codes.
+  - Select travel dates and search for available flights.
+  
+- **Optional Return Flights**: 
+  - Allows searching for return flights by specifying a return date.
+  
+- **Filter and Sort Flights**: 
+  - Filter flights by maximum price.
+  - Sort results by price for better comparison.
+  
+- **Error Handling**: 
+  - Ensures valid input by prompting users to use airport codes (not city names).
+  
+- **New Search**: 
+  - Allows resetting the form and search results for a fresh query.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React**: JavaScript library for building user interfaces.
+- **Material-UI**: A popular React component library for styling and design.
+- **Sky-Scrapper API**: API to fetch flight data.
+- **React hooks (useState, useEffect)**: For managing state and lifecycle methods.
+  
+---
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to get your development environment set up:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Clone the repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/KShilina/google-flights-clone
 
-### `npm run eject`
+```
+### 2. Navigate to the project folder
+```
+cd google-flights-clone
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+### 3. Install dependencies
+```
+npm install
+```
+This will install all the required dependencies listed in the package.json file for the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Set Up API Key:
+* Sign up at RapidAPI and subscribe to the Sky-Scrapper API.
+* Create a .env file in the project root and add your API key:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+REACT_APP_SKYSCRAPPER_API_KEY=your-api-key-here
+```
+This will ensure your API key is available in the app when making requests.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 5. Run the application
+Once the dependencies are installed and the environment is set up, you can run the application locally in development mode with:
 
-## Learn More
+```
+npm start
+```
+This will start the development server, and you can open the app by visiting http://localhost:3000 in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will automatically reload when you make changes to the code.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Here’s your updated README.md with proper markdown tags for headings, subheadings, lists, and code blocks:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Google Flights Clone - Flight Search Application
+This is a responsive React application that replicates key features of Google Flights. It allows users to search for flights, filter results, and view departure and return flight options using the Sky-Scrapper API.
 
-### Analyzing the Bundle Size
+Features
+Search for Flights: Enter departure and destination airport codes, select travel dates, and search for available flights.
+Optional Return Flights: Search for return flights by specifying a return date.
+Filter and Sort Flights: Filter by maximum price and sort results by price.
+Error Handling: Ensures valid input by prompting users to use airport codes instead of city names.
+New Search: Reset the form and search results for a fresh query.
+Modern UI with Material-UI: Leverages Material-UI components for a polished, responsive, and accessible design.
+Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Installation
+Clone the Repository:
 
-### Making a Progressive Web App
+bash
+Copy code
+git clone https://github.com/yourusername/your-repo.git  
+cd your-repo  
+Install Dependencies:
+Make sure you have Node.js installed. Run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy code
+npm install  
+Set Up API Key:
 
-### Advanced Configuration
+Sign up at RapidAPI and subscribe to the Sky-Scrapper API.
+Create a .env file in the project root and add your API key:
+env
+Copy code
+REACT_APP_RAPIDAPI_KEY=your_rapidapi_key  
+Start the Development Server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+bash
+Copy code
+npm start  
+The app will be accessible at http://localhost:3000.
 
-### Deployment
+# Usage
+## 1. Search for Flights:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Enter the departure airport code (e.g., JFK) and destination airport code (e.g., LAX).
+* Select a departure date using the date picker.
+* Optionally, select a return date to see return flight options.
 
-### `npm run build` fails to minify
+# Error Handling:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* If the input is invalid (e.g., a city name instead of an airport code), an error message will prompt you to correct the input.
+# New Search:
+
+* Click the "New Search" button to reset the form and results, and perform a new query.
+
+
+
+# Key Dependencies
+* React: Frontend library for building UI.
+* Material-UI: Provides responsive, accessible, and visually appealing UI components.
+* Axios: HTTP client for API requests.
+
+
+# API Integration
+* The app integrates with the Sky-Scrapper API from RapidAPI to fetch flight data.
+
+# API Endpoints
+* /flights/getPriceCalendar: Fetches flight data based on parameters like departure, destination, and travel dates.
+
+
+# Future Enhancements
+* Implement a map view for airport locations.
+* Allow users to save favorite searches.
+* Add support for multiple currencies.
+* Integrate more robust error handling and validation.
+
+# Acknowledgments
+* RapidAPI for the Sky-Scrapper API.
+* Material-UI for providing intuitive UI components.
+
+
