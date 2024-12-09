@@ -112,7 +112,7 @@ The app will automatically reload when you make changes to the code.
 * Integrate more robust error handling and validation.
 
 # Acknowledgments
-* RapidAPI for the Sky-Scrapper API.
+* RapidAPI for the Sky-Scrapper API https://rapidapi.com/apiheya/api/sky-scrapper.
 * Material-UI for providing intuitive UI components.
 
 
