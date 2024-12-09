@@ -83,10 +83,10 @@ The app will automatically reload when you make changes to the code.
 * Select a departure date using the date picker.
 * Optionally, select a return date to see return flight options.
 
-# Error Handling:
+# 2. Error Handling:
 
 * If the input is invalid (e.g., a city name instead of an airport code), an error message will prompt you to correct the input.
-# New Search:
+# 3. New Search:
 
 * Click the "New Search" button to reset the form and results, and perform a new query.
 
