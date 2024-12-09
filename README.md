@@ -4,6 +4,10 @@
 This is a responsive React application that replicates key features of **Google Flights**. It allows users to search for flights, filter results, and view departure and return flight options using the **Sky-Scrapper API**.
 
 ---
+### ScreenShots
+!["Search page"](public/docs/search.jpg)
+!["Choose your destination"](public/docs/departure:return.jpg)
+!["Error handling"](public/docs/handleerror.jpg)
 
 ## Features
 
