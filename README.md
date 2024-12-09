@@ -18,10 +18,6 @@ This is a responsive React application that replicates key features of **Google 
 - **Optional Return Flights**: 
   - Allows searching for return flights by specifying a return date.
   
-- **Filter and Sort Flights**: 
-  - Filter flights by maximum price.
-  - Sort results by price for better comparison.
-  
 - **Error Handling**: 
   - Ensures valid input by prompting users to use airport codes (not city names).
   
