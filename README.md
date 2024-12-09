@@ -80,47 +80,6 @@ This will start the development server, and you can open the app by visiting htt
 The app will automatically reload when you make changes to the code.
 
 
-Here’s your updated README.md with proper markdown tags for headings, subheadings, lists, and code blocks:
-
-Google Flights Clone - Flight Search Application
-This is a responsive React application that replicates key features of Google Flights. It allows users to search for flights, filter results, and view departure and return flight options using the Sky-Scrapper API.
-
-Features
-Search for Flights: Enter departure and destination airport codes, select travel dates, and search for available flights.
-Optional Return Flights: Search for return flights by specifying a return date.
-Filter and Sort Flights: Filter by maximum price and sort results by price.
-Error Handling: Ensures valid input by prompting users to use airport codes instead of city names.
-New Search: Reset the form and search results for a fresh query.
-Modern UI with Material-UI: Leverages Material-UI components for a polished, responsive, and accessible design.
-Demo
-
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo.git  
-cd your-repo  
-Install Dependencies:
-Make sure you have Node.js installed. Run:
-
-bash
-Copy code
-npm install  
-Set Up API Key:
-
-Sign up at RapidAPI and subscribe to the Sky-Scrapper API.
-Create a .env file in the project root and add your API key:
-env
-Copy code
-REACT_APP_RAPIDAPI_KEY=your_rapidapi_key  
-Start the Development Server:
-
-bash
-Copy code
-npm start  
-The app will be accessible at http://localhost:3000.
-
 # Usage
 ## 1. Search for Flights:
 
